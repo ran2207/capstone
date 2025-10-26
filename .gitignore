@@ -53,10 +53,12 @@ images-dataSAT.tar
 *.pt
 *.ckpt
 *.weights
-ai-capstone-*
-keras_cnn_vit*
-pytorch_cnn_vit*
-ai_capstone_*
+# Model checkpoint patterns
+*best-model*.keras
+*best-model*.pth
+keras_cnn_vit*.keras
+pytorch_cnn_vit*.pth
+ai_capstone_*.pth
 
 # Logs
 *.log
